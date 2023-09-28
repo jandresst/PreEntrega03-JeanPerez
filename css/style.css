@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800&display=swap');
+
+/*ESTILO */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #d2d2d2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(45, 45, 45);
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    text-align: center;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+article img {
+    width: 40%;
+}
+
+aside {
+    width: 300px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer {
+    position: relative;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+
+.container h1 {
+    font-size: 35px;
+    margin: 5px;
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
+    margin: 30px;
+}
+
+.mapa h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#enviar {
+    width: 200px;
+    height: 40px;
+    color: #f0f0f0;
+    background-color: #b623c4;
+    border: #000000 solid 2px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.planes {
+    color: white;
+}
+
+.plan1 {
+    margin: 10px;
+    width: 25%;
+    background-color: #b811c7;
+    border-radius: 15px;
+}
+
+.plan2 {
+    margin: 10px;
+    width: 25%;
+    background-color: #94399c;
+    border-radius: 15px;
+}
+
+.plan3 {
+    margin: 10px;
+    width: 25%;
+    background-color: #865b89;
+    border-radius: 15px;
+}
+
+.plan4 {
+    margin: 10px;
+    width: 25%;
+    background-color: #3e2a3f;
+    border-radius: 15px;
+}
+
+#wsp {
+    width: 100px;
+    height: 100px;
+    background-image: url(../assets/img/wsp_logo.png);
+    background-size: contain;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1;
+}

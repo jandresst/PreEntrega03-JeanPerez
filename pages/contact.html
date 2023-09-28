@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contactanos</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../assets/img/smartsys.png" width="200px" height="auto" alt="logo">
+        </a>
+    </header>
+    <main>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="contact.html">Contactanos</a>
+            <a href="./services.html">Servicios</a>
+        </nav>
+
+        <div class="container">
+            <h1>Contactanos</h1>
+            <form action="#" id="formulario" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="opcion1">Sexo</label><br>
+                <input type="radio" id="opcion1" name="opcion" value="opcion1">
+                <label for="opcion1">Hombre</label><br>
+                <input type="radio" id="opcion2" name="opcion" value="opcion2">
+                <label for="opcion2">Mujer</label><br><br>
+
+                <label for="comentario">Comentario</label><br>
+                <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br>
+
+                <input type="checkbox" id="acepto" name="acepto" value="acepto">
+                <label for="acepto">Acepto los términos y condiciones</label><br><br>
+
+                <input id="enviar" type="submit" value="Enviar">
+                <input type="reset" name="" value="Borrar" id="enviar">
+            </form>
+            <div class="mapa">
+                <h1>Visitanos</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.5465879379094!2d-70.73697422339082!3d-33.30452309005544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662bfa361623099%3A0xb6f5188a3f51f4b7!2sWork%20Center%20Radial%20Nor-Oriente!5e0!3m2!1sen!2scl!4v1693950689228!5m2!1sen!2scl"
+                    width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <aside>Lado derecho</aside>
+    </main>
+    <footer>Sitio desarrollado por Jean Pérez</footer>
+</body>
+
+</html>
