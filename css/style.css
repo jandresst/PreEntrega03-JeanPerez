@@ -21,15 +21,26 @@ nav {
 }
 
 nav a {
+    border-radius: 25px;
     color: rgb(45, 45, 45);
     text-decoration: none;
     margin: 10px;
-    font-weight: bold;
 }
+
+
+nav a:hover {
+    background-color: #94399c;
+    border: 14px solid #94399c;
+    border-radius: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
 
 main {
     padding: 20px;
 }
+
 
 article {
     text-align: center;
