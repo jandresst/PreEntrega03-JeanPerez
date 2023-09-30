@@ -149,7 +149,9 @@ footer a{
     background-color: #3e2a3f;
     border-radius: 15px;
 } */
-
+.maps{
+    margin-top: 15px;
+}
 #wsp {
     width: 75px;
     height: 100px;
