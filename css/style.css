@@ -9,40 +9,68 @@
 }
 
 header {
-    background-color: #d2d2d2;
-    color: white;
-    padding: 20px;
-    text-align: center;
+    font-weight: 500;
 }
 
-nav {
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    border-radius: 25px;
-    color: rgb(45, 45, 45);
-    text-decoration: none;
-    margin: 10px;
+.btn-dark {
+    border-radius: 20px;
 }
 
 
-nav a:hover {
+.container{
+    padding: 15px;
+}
+.container img{
+    margin: 5px;
+    border-image:none;
+    border-radius: 10px;
+}
+
+.container .btn{
+    color: #f0f0f0;
     background-color: #94399c;
-    border: 14px solid #94399c;
     border-radius: 25px;
-    color: #000000;
-    text-decoration: none;
+    border: none;
 }
 
-
-main {
-    padding: 20px;
+.container .btn:hover{
+    color: #333;
+    background-color: #ad84b1;
+    border-radius: 25px;
 }
 
+.card {
+    border:none;
+    padding: 10px 30px;
+  }
 
-article {
+  .card::after {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .card:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
+    backface-visibility: hidden; 
+    will-change: transform;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
+  }
+
+  .card:hover::after {
+    opacity: 1;
+  }
+
+  .card:hover .btn-outline-primary{
+    color:white;
+    background:#685dfd;
+  }
+
+
+/* article {
     text-align: center;
     width: 100%;
     background-color: #f0f0f0;
@@ -57,20 +85,18 @@ aside {
     width: 300px;
     background-color: #ddd;
     padding: 20px;
-}
+} */
 
 footer {
     position: relative;
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: 10px;
 }
 
-.container {
-    background-color: #f0f0f0;
-    margin: 10px;
+footer:hover{
+    color: #ffffff;
 }
+
 
 form {
     text-align: center;
@@ -136,9 +162,10 @@ form {
 }
 
 #wsp {
-    width: 100px;
+    width: 75px;
     height: 100px;
     background-image: url(../assets/img/wsp_logo.png);
+    background-repeat: no-repeat;
     background-size: contain;
     position: fixed;
     right: 30px;
