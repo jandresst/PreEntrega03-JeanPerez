@@ -87,21 +87,20 @@ aside {
     padding: 20px;
 } */
 
-footer {
-    position: relative;
+
+
+
+
+#form {
+    width: 600px;
+    height: 500px;
     text-align: center;
-    padding: 10px;
+
 }
 
-footer:hover{
-    color: #ffffff;
+footer a{
+    text-decoration: none;
 }
-
-
-form {
-    text-align: center;
-}
-
 
 .container h1 {
     font-size: 35px;
@@ -109,7 +108,7 @@ form {
     text-align: center;
 }
 
-.mapa {
+/* .mapa {
     text-align: center;
     margin: 30px;
 }
@@ -117,19 +116,9 @@ form {
 .mapa h1 {
     text-align: center;
     font-weight: bold;
-}
+} */
 
-#enviar {
-    width: 200px;
-    height: 40px;
-    color: #f0f0f0;
-    background-color: #b623c4;
-    border: #000000 solid 2px;
-    border-radius: 25px;
-    margin: 10px;
-}
-
-.planes {
+/* .planes {
     color: white;
 }
 
@@ -159,7 +148,7 @@ form {
     width: 25%;
     background-color: #3e2a3f;
     border-radius: 15px;
-}
+} */
 
 #wsp {
     width: 75px;
