@@ -151,6 +151,7 @@ footer a{
 } */
 .maps{
     margin-top: 15px;
+    overflow: hidden;
 }
 #wsp {
     width: 75px;
